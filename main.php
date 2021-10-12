@@ -10,6 +10,7 @@ the_post();
 
 
 endwhile;
+// Issue was here you need to fix this
 ?>
 </body>
 </html>
