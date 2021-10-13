@@ -8,7 +8,14 @@
 <?php 
 while(have_posts()):
 the_post();
-the_title();
+?>
+<div class="entry">
+<h2><?php the_title();?></h2>
+	<div class="content">
+		<?php the_content();?>
+	</div>
+</div>
+<?php
 endwhile;
 // Issue was here you need to fix this
 // No no no no this is the line next to be added
